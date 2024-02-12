@@ -1,0 +1,156 @@
+body {
+    background-color: #B4B4B3;
+    text-align: center;
+    position: relative;
+}
+h1 {
+    font-size: 70px;
+    color: darkslategray;
+
+}
+h2 {
+    font-size: 40px;
+    color: darkslategrey;
+}
+hr {
+    background-color: none;
+    width: 30%;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: white;
+    border-width: 5px;
+    width: 10%;
+}
+img {
+    border: solid;
+}
+
+/************CLASS***********/
+
+.first-div {
+    margin: 20px;
+    position: relative;
+    padding-top: 100px;
+    
+}
+.circular {
+    border-radius: 100%;
+}
+.second-div {
+    padding-top: 30px;
+    background-color: #7D7C7C;
+    border-radius: 20px;
+    width: 70%;
+    margin: 100px auto 100px auto;
+}
+.third-div {
+    padding-top: 30px;
+    background-color: #7D7C7C;
+    border-radius: 20px;
+    width: 70%;
+    margin: 100px auto 100px auto;
+    margin-top: 10px;
+    text-align: center;
+}
+.circular-2 {
+    border-radius: 20px;
+}
+.button {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background: darkslategrey;
+    width: 160px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+
+}
+.button:hover, .button:focus, .button:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transition: scale(1.1);
+    transform: scale(1.1);
+
+}
+.footer {
+    text-align: center;
+    background-color: darkslategrey;
+    padding: 20px;
+    width: 100%;
+    border-radius: 20px;
+}
+.fifth-div {
+    text-align: left;
+    background-color: darkslategrey;
+    padding: 30px;
+    width: 100%;
+    border-radius: 20px;
+}
+.contactme {
+    text-align: center;
+}
+.contactme-2 {
+    background-color: #7D7C7C;
+    border-radius: 20px;
+    width: 80%;
+    margin: 100px auto 100px auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    align-content: center;
+    padding: 45px;
+    height: 120%;
+    width: 70%;
+
+}
+.textarea {
+    background-color: #B4B4B3;
+    border-radius: 8px;
+}
+.input {
+    background-color: #B4B4B3;
+}
+.button-2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background: darkslategrey;
+    width: 160px;
+    padding: 10px;
+    text-decoration-style: solid;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+}
+.button-2:hover, .button-2:focus, .button-2:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transition: scale(1.1);
+    transform: scale(1.1);
+
+}
+.textarea
+
+/*****************ID SELECTORS*****************/
+
+#footer {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px;
+    
+}
+
